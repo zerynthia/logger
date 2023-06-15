@@ -1,0 +1,93 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_logger",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_from",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_number",
+						"type": "uint256"
+					}
+				],
+				"name": "getPayment",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Example.sol": "Demo"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Example.sol": {
+			"keccak256": "0x6b371656e6695a88b61d0d28579963b667da88b558c3840bb34ecd5bf97117c1",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7eae3248414ed827f0abb5c2d25616dc463a0050f13ce38a98ea631f3f2b661e",
+				"dweb:/ipfs/QmQa8cv6qKaZuix9S95yki1z983kWLxHkpYPBsCXfHmHW8"
+			]
+		},
+		"contracts/ILogger.sol": {
+			"keccak256": "0x6337621507ff6eddbfe705f306ad63441da07ba294478bd1ace3d8c345a6f226",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://de03e6c69d49d75a2a323a1cc1171993b9bf7027d1077bb06358aed4678ac68c",
+				"dweb:/ipfs/QmQjiL9Ys3qAignQc4y6LEJC3qND8hub8wULdtKEujPe22"
+			]
+		}
+	},
+	"version": 1
+}
